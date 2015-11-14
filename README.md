@@ -32,6 +32,10 @@ git checkout 3ece436886222a106ae34877f9f569162ccb5421
 ```
 git checkout .
 ```
+* 删掉上一个版本
+```
+git revert HEAD
+```
 * 更改版本名
 ```
 git checkout -b first 
